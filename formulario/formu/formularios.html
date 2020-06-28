@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Layout Basica</title>
+	<link rel="stylesheet" href="formulario1.css">
+</head>
+<body>
+	<form class="formulario56" action="">
+		
+		<input type="text" placeholder="Nombre:" maxlength="20" name="nombre" required>
+		<br>
+		<input type="text" placeholder="Apellido" maxlength="20" name="Apellido" required>
+		<br>
+		<input type="email" placeholder="exampler@gmail.com" name="correo" required>
+		<br>
+		<textarea name="comentarios" id="comentarios" placeholder="comentarios" cols="40" rows="10"></textarea>
+		<br>
+		
+<br>
+<label for="Pais"> Pais</label>
+        <select name="Pais" id="pais">
+			<option value="Bolivia"> Bolivia</option>
+		</select>
+
+<br><br>
+<label for="Ciudad">Ciudad</label>
+		<select name="Ciudad" id="Ciudad">
+			<option value="cochabamba"> cochabamba</option>
+			<option value="la paz"> la paz</option>
+			<option value="santa cruz"> santa cruz</option>
+			<option value="beni"> beni </option>
+			<option value="potosi"> potosi </option>
+			<option value="oruro"> oruro </option>
+			<option value="chuquisaca"> chuquisaca</option>
+			<option value="pando">pando </option>
+			
+		</select>
+
+<br>
+<label for="hombre"> Hombre</label>
+<input type="radio" name="genero" value="hombre" id="hombre">
+<label for="mujer"> mujer</label>
+<input type="radio" name="genero" value="mujer" id="mujer">
+	
+
+<br>Estos terminos seran resguardadios por servidores de alta seguridad lo cual sus datos no seran sustraidos acepta los terminos y condiciones<br>
+<input type="checkbox" name="terminos" id="terminos">
+<label for="terminos"></label>
+<br>
+
+<input type="submit" value="Enviar">
+
+	</form>
+</body>
+</html>
